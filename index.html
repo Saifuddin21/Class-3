@@ -1,0 +1,120 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            HTML Form
+        </title>
+    </head>
+    <body>
+        <h1 align="center" style="color:#74C3F9"> Registration Form </h1>
+        <form>
+            <table border="0" width="1140" align="center" bgcolor="#74C3F9">
+                <tr>
+                    <td>
+                        <label for="fName"> First Name:</label>
+             </td>
+            <td> <input type="text" placeholder="Type your first name" id="fName" required></td>
+                </tr>
+                <tr>
+                    <td> <label for="lName"> Last Name:</label></td>
+                    <td><input type="text" placeholder="Type your last name" id="lName" required> </td>
+                </tr>
+                <tr>
+                    <td><label for="nName"> Nick Name:</label> </td>
+                    <td> <input type="text" placeholder="Type your nick name" id="nName" maxlength="10"> </td>
+                </tr>
+                <tr>
+                    <td>  <label for="email"> Email:</label> </td> 
+                    <td> <input type="email" placeholder="Type your email address" id="email" required> </td>
+                </tr>
+                <tr>
+                    <td> <label for="password"> Password:</label> </td>
+                    <td> <input type="password" placeholder="Type your password" id="password" required> </td>
+                </tr>
+                <tr>
+                    <td> <label for="d.o.b"> Date of Birth:</label> </td>
+                    <td>   <input type="date" placeholder="Date of Birth" id="d.o.b" required> </td>
+                </tr>
+                <tr>
+                    <td><label>Gender:  </label>  </td>
+                    <td><label for="male"> Male</label>
+            <input type="radio" id="male" name="gender" required> </td>
+                 <td> 
+            <label for="female"> Female</label>
+            <input type="radio" id="female" name="gender"> </td>
+                </tr>
+                <tr>
+                    <td> <label> Educational Institution:</label> </td>
+                    <td>  <select>
+                <option>--Educational institution--</option>
+                <optgroup label="School">
+                    <option>Muslim High School</option> 
+                    <option>Nasirabad Govt.</option> 
+                   <option>Ideal School</option> 
+                   <option> Rahamatpur High School</option>
+                   <option> HCPSC</option>
+                   <option> Model School</option>
+                </optgroup>
+                <optgroup label="College">
+                    <option> Chittagong College</option>
+                    <option> Mohsin College</option>
+                    <option> Cambrian College</option>
+                    <option>Milestone College</option>
+                    <option> Ispahani College</option>
+                    <option> Cadet College</option>
+                </optgroup>
+                <optgroup label="University">
+                    <option> BUET</option>
+                    <option>CUET</option>
+                    <option> CU</option>
+                    <option> DU</option>
+                    <option> IIUC</option>
+                    <option> SUST</option>
+                </optgroup>
+            </select></td>
+                </tr>
+                <tr>
+                    <td> <label for="number"> Mobile:</label></td>
+                    <td>  <input type="tel" placeholder="Type your phone number" id="number" required> </td>
+                </tr>
+                <tr>
+                    <td>   <label>Country you have visited:</label> </td>
+                    <td> 
+            <label for="1"> UK</label>
+            <input type="checkbox" id="1">
+            <label for="2"> USA</label>
+            <input type="checkbox" id="2">
+            <label for="3"> China</label>
+            <input type="checkbox" id="3">
+            <label for="4"> Russia</label>
+            <input type="checkbox" id="4">
+            <label for="5"> Malaysia</label>
+            <input type="checkbox" id="5">
+            <label for="6"> Bangladesh</label>
+            <input type="checkbox" id="6">
+                   </td>
+                </tr>
+                <tr>
+                    <td valign="top"><label for="address">Address:</label> </td>
+                    <td> <textarea rows="10" cols="40" id="address">Address</textarea> </td>
+                </tr>
+                 <br>
+                <tr>
+                    <td> <label> Upload your picture: </label> </td>
+                        <td> <input type="file" required multiple></td>
+                </tr>
+                <tr>
+                    <td> 
+                        <input type="reset">
+                    </td>
+                </tr>
+            </table>
+            <table border="0" align="center"> 
+                <tr>
+                    <td > <input type="image" src="image/SubmitButton.gif"> </td>
+                </tr>
+            </table>           
+        </form>
+    </body>
+</html>
